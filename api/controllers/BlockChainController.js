@@ -1,5 +1,4 @@
 "use strict";
-const axios = require("axios");
 const config = require("../../config");
 const { ethers } = require("ethers");
 var interValTimeOut;
