@@ -1,11 +1,25 @@
-# deposit-usdt-bep20-testnet
-Deposit USDT on Binance Smart Chain (BEP20 Testnet)
+# Guidelines For Developers
 
-# get new address
-- api: http://localhost:3000/blockchain/getNewWallet
-response
-{
-  "address": "0x9c3aF5F5915CAfCb445C45EDeA790f629dB83Dc1",
-  "private": "0x208d46ea9ede4f9ba7029c5a5864b040b266e3e7dc968d0ce9c282fad1be962c",
-  "publickey": "0x0243f7ec739b25f0b7a4f6252abd7907f71be6de286bd2fe990609d2f30b2698c2"
-}
+## Table of Contents
+- [1. Introduction](#1-Introduction)
+- [2. Blockchain Wallet](#5-Blockchain-Wallet)
+
+## 1. Introduction
+- This is simple project about getting movies on youtube and show it in your website.
+- Using ruby on rails for backend and reactjs for frontend.
+- Key features: Login, register, view video, create video and real time notification when having new video from users.
+
+
+## 2. Blockchain-Wallet
+- Get new address with private and public key
+```code
+http://localhost:3000/blockchain/getNewWallet
+```
+
+Get balance USDT and BNB
+```code
+http://localhost:3000/blockchain/getBalanceOfUSDT/0xC477f3775D46449290095898cc84374223Fcb205
+```
+
+## Conclusion
+- Thanks for reading !!!
