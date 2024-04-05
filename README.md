@@ -5,9 +5,10 @@
 - [2. Blockchain Wallet](#2-Blockchain)
 
 ## 1. Introduction
-- This is simple project about getting movies on youtube and show it in your website.
-- Using ruby on rails for backend and reactjs for frontend.
-- Key features: Login, register, view video, create video and real time notification when having new video from users.
+- This is simple project about Blockchain wallet
+- Support get new address with private key and public key
+- Support get balance usdt and bnb
+- Support transfer token on binance smart chain testnet
 
 
 ## 2. Blockchain
