@@ -5,7 +5,7 @@ var interValTimeOut;
 module.exports = {
   getHealthServer: async (req, res) => {
     res.json({
-      server: "OK"
+      server: "OK Server"
     });
   },
   getBalanceOfUSDT: async (req, res) => {
